@@ -1,0 +1,78 @@
+body {
+background-color: rgb(220, 245, 245);
+font-family: 'Courier New', Courier, monospace;
+}
+
+h1 { color: rgb(2, 27, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 45px;
+}
+
+h2 { color: rgb(39, 43, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color : rgb(2, 27, 24) ;
+}
+
+a:hover {
+    color: rgb(220, 245, 245);
+}
+
+/*custom design with class */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: rgb(126, 31, 31);
+    color: beige;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: rgb(220, 245, 245);
+    color: rgb(126, 31, 31);
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+}
+.list-inline i {
+    font-size: 50px;
+    color: rgb(126, 31, 31);
+}
+.list-inline i:hover {
+    color: black;
+}
+#introduction p {
+    margin-bottom: 40px;
+}
+
